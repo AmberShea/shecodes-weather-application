@@ -60,7 +60,6 @@ main {
 }
 .weather-app-icon {
     margin-top: 22px;
-    width: 88px;
     height: 88px;
 }
 .weather-app-temperature {
@@ -80,8 +79,10 @@ main {
     margin-bottom: 10px;
 }
 .weather-forecast-icon {
-    font-size: 38px;
-    text-align: center;
+    width:88px;
+    height:88px;
+    display: block;
+    margin: 0 auto;
 }
 .weather-forecast {
     display: flex;
